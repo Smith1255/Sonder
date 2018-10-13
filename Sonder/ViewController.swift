@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func buttonClick(sender: UIButton) {
-        helloWorldLabel.isHidden = false
+        helloWorldLabel.isHidden = !(helloWorldLabel.isHidden)
     }
 
 }
